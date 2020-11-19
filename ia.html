@@ -10,30 +10,46 @@
 </head>
 
 <body>
-
-    <div class="container">
-        <h1 class="title">Experiment 1</h1>
-        <p class="instructions">Instructions: Click on all 'X's as quickly as possible.</p>
-        <button class="button" id="start1">Begin</button>
-        <table id="table1">
-            <tbody>
-                <tr></tr>
-            </tbody>
-        </table>
-        <p class="out" id="out1"></p>
+    <div class="experiments">
+        <div class="container">
+            <h1 class="title">Experiment 1</h1>
+            <p class="instructions">Instructions: Click on all 'X's as quickly as possible.  Please repeat 5 times.</p>
+            <button class="button" id="start1">Begin</button>
+            <table id="table1">
+                <tbody>
+                    <tr></tr>
+                </tbody>
+            </table>
+        </div>
+        <br>
+        <div class="container">
+            <h1 class="title">Experiment 2</h1>
+            <p class="instructions">Instructions: Click on all 'X's as quickly as possible. Please repeat 5 times.</p>
+            <button class="button" id="start2">Begin</button>
+            <table id="table2">
+                <tbody>
+                    <tr></tr>
+                </tbody>
+            </table>
+        </div>
     </div>
     <br>
-    <div class="container">
-        <h1 class="title">Experiment 2</h1>
-        <p class="instructions">Instructions: Click on all 'X's as quickly as possible.</p>
-        <button class="button" id="start2">Begin</button>
-        <table id="table2">
+    <div class="container" id="results_container">
+        <h1 class="title">Results</h1>
+        <button class="button" id="reveal">Reveal</button>
+        <table id="results" class="results_hide">
             <tbody>
-                <tr></tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Experiment I</td>
+                </tr>
+                <tr>
+                    <td>Experiment II</td>
+                </tr>
             </tbody>
         </table>
-        <p class="out" id="out2"></p>
     </div>
-
     <script type="text/javascript" src="ia.js"></script>
 </body>
